@@ -1,5 +1,19 @@
 import React from 'react';
 
+
+interface ImageProps {
+    ariaHidden?: boolean;
+    src: string;
+    alt: string;
+    width : number;
+    height : number;
+    // Add any other props you need
+}
+
+const Image: React.FC<ImageProps> = ({ ariaHidden, src, alt, width, height }) => {
+    return <img aria-hidden={ariaHidden} src={src} alt={alt} width={width} height={height} />;
+};
+
 const Footer: React.FC = () => {
     return (
         <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
