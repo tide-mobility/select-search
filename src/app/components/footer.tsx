@@ -1,0 +1,55 @@
+import React from 'react';
+
+const Footer: React.FC = () => {
+    return (
+        <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+        <a
+            className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+            href="https://luxury-select.co.kr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              aria-hidden
+              src="/globe.svg"
+              alt="Globe icon"
+              width={16}
+              height={16}
+            />
+            Go to luxury-select →
+          </a>
+          <a
+            className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+            href="http://localhost:3000/search"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              aria-hidden
+              src="/file.svg"
+              alt="File icon"
+              width={16}
+              height={16}
+            />
+            셀렉트 통합 검색 →
+          </a>
+          <a
+            className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+            href="http://localhost:3000/search-sabre"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              aria-hidden
+              src="../../public/window.svg"
+              alt="Window icon"
+              width={16}
+              height={16}
+            />
+            세이버 Sabre Search (Total 112428 시설) →
+          </a>
+        </footer>
+    );
+};
+
+export default Footer;
