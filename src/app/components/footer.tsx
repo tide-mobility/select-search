@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
           </a>
           <a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-            href="http://localhost:3000/search"
+            href="/search-sabre"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
           </a>
           <a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-            href="http://localhost:3000/search-sabre"
+            href="/search-sabre"
             target="_blank"
             rel="noopener noreferrer"
           >
