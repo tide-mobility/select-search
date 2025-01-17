@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
           >
             <Image
               aria-hidden
-              src="../../public/window.svg"
+              src="/window.svg"
               alt="Window icon"
               width={16}
               height={16}
