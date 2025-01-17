@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
           </a>
           <a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-            href="/search-sabre"
+            href="https://select-search-zeta.vercel.app/search"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -49,18 +49,18 @@ const Footer: React.FC = () => {
           </a>
           <a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-            href="/search-sabre"
+            href="https://select-search-zeta.vercel.app/search-sabre"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image
               aria-hidden
-              src="/window.svg"
-              alt="Window icon"
+              src="/file.svg"
+              alt="File icon"
               width={16}
               height={16}
             />
-            세이버 Sabre Search (Total 112428 시설) →
+            세이버 Sabre Search (Total 127334 시설) →
           </a>
         </footer>
     );
