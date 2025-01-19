@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
           width={16}
           height={16}
         />
-        세이버 Sabre Search (Total 127334 시설!!) →
+        세이버 Sabre Search (Total 127334개 시설!!) →
       </a>
     </footer>
   );
